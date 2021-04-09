@@ -1,0 +1,640 @@
+@media only screen and (max-width:600px){
+    div.nav-bar {
+        padding: 1rem 2rem;
+        position: relative;
+    }
+    div.logo {
+        font-size: 1rem;
+    }
+    ul.nav-links{
+        display: none;
+        width: 100%;
+    }
+    ul.nav-links.show{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 85%;
+    }
+    ul li{
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+    button.hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    div.hero-section {
+        padding: 5rem;
+        /* width: 100%; */
+    }
+    div.hero-content-heading h3 {
+        font-size: 1.0rem;
+        font-weight: 100;
+        /* width: 100%; */
+    }
+    div.hero-content-heading p {
+        padding-top: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 100;
+        /* width: 100%; */
+    }
+    div.hero-background {
+        padding: 5rem;
+    }
+    div.background {
+        padding: 40px;
+        width: auto;
+        height: auto;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.background h4 {
+        padding: 1rem;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    div.background p {
+        padding-left: 0;
+        text-align: center;
+    }
+    div.hero-background-pos {
+        position: fixed;
+        display: none;
+    }
+    div.snapshot-team {
+        padding-top: 1rem;
+    }
+    div.snapshot-team h2 {
+        font-size: 1.0rem;
+        letter-spacing: 2px;
+    }
+    div.snapshot-team p {
+        font-size: 0.8rem;
+        padding-top: 0.6rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    div.snapshot-box {
+        padding: 3rem 5rem;
+    }
+    div.snapshot-box-content {
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        /* flex-wrap: wrap; */
+    }
+    div.box1 {
+        margin: 5px;
+    }
+    
+    div.box3 {
+        margin: 5px;
+    }
+    
+    div.box3 h5 {
+        font-size: 0.8rem;
+    }
+    
+    div.box1 h5 {
+        font-size: 0.8rem;
+    }
+    div.gallery-content h4 {
+        font-size: 1.0rem;
+    }
+    
+    div.gallery-content p {
+        font-size: 0.8rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    div.img {
+        margin: 5px;
+    }
+    
+    div.img img {
+        width: 200px;
+        height: 130px;
+    }
+    div.footer-content h4 {
+        font-size: 1.0rem;
+    }
+    
+    div.footer-content p {
+        font-size: 0.8rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    div.footer-input {
+        flex-direction: column;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        margin-right: 0px;
+        width: 350px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+
+    } 
+    div.footer-textarea {
+        padding-top: 0;
+    }
+    textarea {
+        width: 350px;
+        height: 150px;
+        font-size: 1.5rem;
+    }
+    div.footer h6 {
+        font-size: 0.8rem;
+        padding-top: 4rem;
+    }
+}
+@media only screen and (min-width:600px){
+
+    div.nav-bar {
+        padding: 1rem 2rem;
+        position: relative;
+    }
+    div.logo {
+        font-size: 1rem;
+    }
+    ul.nav-links{
+        display: none;
+         width: 100%;
+    }
+    ul.nav-links.show{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 85%;
+    }
+    ul li{
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+    button.hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    div.hero-section {
+        padding: 5rem;
+        /* width: 100%;*/
+    }
+    div.hero-content-heading h3 {
+        font-size: 1.0rem;
+        font-weight: 100;
+        /* width: 100%; */
+    }
+    div.hero-content-heading p {
+        padding-top: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 100;
+        /* width: 100%; */
+    }
+    div.hero-background {
+        padding: 5rem;
+    }
+    div.background {
+        padding: 40px;
+        width: auto;
+        height: auto;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.background h4 {
+        padding: 1rem;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    div.background p {
+        padding-left: 0;
+        text-align: center;
+    }
+    div.hero-background-pos {
+        position: fixed;
+        display: none;
+    }
+    div.snapshot-team {
+        padding-top: 1rem;
+    }
+    div.snapshot-team h2 {
+        font-size: 1.0rem;
+        letter-spacing: 2px;
+    }
+    div.snapshot-team p {
+        font-size: 0.8rem;
+        padding-top: 0.6rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    div.snapshot-box {
+        padding: 3rem 5rem;
+    }
+    div.snapshot-box-content {
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        /* flex-wrap: wrap; */
+    }
+    div.box1 {
+        margin: 5px;
+    }
+    
+    div.box3 {
+        margin: 5px;
+    }
+    
+    div.box3 h5 {
+        font-size: 0.8rem;
+    }
+    
+    div.box1 h5 {
+        font-size: 0.8rem;
+    }
+    div.gallery-content h4 {
+        font-size: 1.0rem;
+    }
+    
+    div.gallery-content p {
+        font-size: 0.8rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    div.img {
+        margin: 5px;
+    }
+    
+    div.img img {
+        width: 200px;
+        height: 130px;
+    }
+    div.footer-content h4 {
+        font-size: 1.0rem;
+    }
+    
+    div.footer-content p {
+        font-size: 0.8rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    div.footer-input {
+        flex-direction: column;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        margin-right: 0px;
+        width: 350px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+
+    } 
+    div.footer-textarea {
+        padding-top: 0;
+    }
+    textarea {
+        width: 350px;
+        height: 150px;
+        font-size: 1.5rem;
+    }
+    div.footer h6 {
+        font-size: 0.8rem;
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div.nav-bar {
+        padding: 1rem 2rem;
+        position: relative;
+        
+    }
+    div.logo {
+        font-size: 1rem;
+    }
+    ul.nav-links{
+        display:flex;
+        flex-direction: row;
+        position: absolute;
+
+    }
+    ul.nav-links.show{
+        display: none;
+    }
+    ul li{
+        font-size: 1rem;
+    }
+    button.hamburger{
+        display: none;
+    }
+    div.hero-section {
+        padding: 5rem;
+        /* width: 100%; */
+    }
+    div.hero-content-heading h3 {
+        font-size: 1.0rem;
+        font-weight: 100;
+        /* width: 100%; */
+    }
+    div.hero-content-heading p {
+        padding-top: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 100;
+        /* width: 100%; */
+    }
+    div.hero-background {
+        padding: 5rem;
+    }
+    div.background {
+        padding: 40px;
+        width: 550px;
+        height: 220px;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.background h4 {
+        padding: 1rem;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    div.background p {
+        padding-left: 0;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    div.hero-background-pos {
+        position: fixed;
+        display: none;
+    }
+    div.snapshot-team {
+        padding-top: 1rem;
+    }
+    div.snapshot-team h2 {
+        font-size: 1.0rem;
+        letter-spacing: 2px;
+    }
+    div.snapshot-team p {
+        font-size: 0.8rem;
+        padding-top: 0.6rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    div.snapshot-box {
+        padding: 3rem 5rem;
+    }
+    div.snapshot-box-content {
+        flex-direction: row;
+    }
+    div.box1 {
+        margin: 5px;
+    }
+    
+    div.box3 {
+        margin: 5px;
+    }
+    
+    div.box3 h5 {
+        font-size: 0.8rem;
+    }
+    
+    div.box1 h5 {
+        font-size: 0.8rem;
+    }
+    div.gallery-content h4 {
+        font-size: 1.0rem;
+    }
+    
+    div.gallery-content p {
+        font-size: 0.8rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    div.img {
+        margin: 5px;
+    }
+    
+    div.img img {
+        width: 200px;
+        height: 130px;
+    }
+    div.footer-content h4 {
+        font-size: 1.0rem;
+    }
+    
+    div.footer-content p {
+        font-size: 0.8rem;
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    div.footer-input {
+        flex-direction: column;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        margin-right: 0px;
+        width: 350px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+
+    } 
+    div.footer-textarea {
+        padding-top: 0;
+    }
+    textarea {
+        width: 350px;
+        height: 150px;
+        font-size: 1.5rem;
+    }
+    div.footer h6 {
+        font-size: 0.8rem;
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    div.nav-bar {
+        padding: 1rem 6rem;
+        position: relative;
+        width: 100vw;
+    }
+    
+    div.logo {
+        font-size: 1.5rem;
+    }
+    ul.nav-links{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+    }
+    ul.nav-links.show{
+        display: none;
+    }
+    
+    
+    ul li{
+        font-size: 1.1rem;
+    }
+    button.hamburger{
+        display: none;
+    }
+
+    div.hero-section {
+        padding: 10rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 300;
+        color: #bcc3c7;
+    }
+    
+    div.hero-content-heading p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    div.hero-background {
+        padding: 10rem;
+    }
+    
+    div.background {
+        padding: 15px 40px;
+        position: relative;
+    }
+    
+    div.background h4 {
+
+        font-size: 1.5rem;
+    }
+    
+    div.background p {
+        color: #A6A5AA;
+        padding-left: 2rem;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    
+    div.hero-background-pos {
+        position: absolute;
+        display: block;
+    }
+    
+    div.snapshot-team h2 {
+        font-size: 1.5rem;
+    }
+    
+    div.snapshot-team p {
+        font-size: 1rem;
+    }
+    div.snapshot-box-content {
+        flex-direction: row;
+    }
+    
+    div.box3 h5 {
+        font-size: 1.2rem;
+    }
+    
+    div.circle {
+        display: flex;
+        margin: 0 auto;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background: #bcc3c7;
+        margin-top: 2rem;
+    }
+    
+    div.box1 h5 {
+        font-size: 1.5rem;
+    }
+
+    div.gallery-content h4 {
+        font-size: 1.5rem;
+    }
+    
+    div.gallery-content p {
+        font-size: 1rem;
+    }
+    
+    div.img img {
+        width: 250px;
+        height: 180px;
+    }
+    
+    div.footer-content h4 {
+        font-size: 1.5rem;
+    }
+    
+    div.footer-content p {
+        font-size: 1rem;
+    }
+    
+    div.footer-input {
+        flex-direction: row;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        margin-right: 10px;
+        width: 25%;
+        font-size: 1rem;
+    }
+    
+    div.footer-textarea {
+        padding-top: 2rem;
+    }
+    
+    textarea {
+        width: 51%;
+        height: 150px;
+        font-size: 1.0em;
+    }
+    
+    div.footer h6 {
+        font-size: 1rem;
+        padding-top: 6rem;
+    }
+}
