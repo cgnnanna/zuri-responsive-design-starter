@@ -1,6 +1,7 @@
 @media only screen and (max-width:767px){
     div.nav-bar {
         padding: 1rem 2rem;
+        flex-wrap: wrap;
     }
     div.logo {
         font-size: 1rem;
@@ -12,10 +13,13 @@
     ul.nav-links.show{
         display: flex;
         flex-direction: column;
+        margin: auto;
+        width: 100%;
     }
     ul li{
-        font-size: 0.7rem;
-        margin-bottom: 10px;
+        font-size: 1rem;
+        margin: 20px;
+        width: 100%;
     }
     button.hamburger{
         display: block;
