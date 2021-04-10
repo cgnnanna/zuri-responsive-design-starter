@@ -44,7 +44,12 @@ ul li a:hover {
     padding: 0.5rem;
 }
 button.hamburger{
-    display: none;
+    background-color: transparent;
+    border: none;
+    color:  #88949B;
+}
+button.hamburger:focus{
+    outline: none;
 }
 
 div.hero-section {
