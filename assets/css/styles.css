@@ -43,6 +43,9 @@ ul li a:hover {
     background: #fff;
     padding: 0.5rem;
 }
+button.hamburger{
+    display: none;
+}
 
 div.hero-section {
     background: #304353;
